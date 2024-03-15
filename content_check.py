@@ -18,7 +18,6 @@ def check_content_type(url):
     except Exception as e:
         return f"Error: {e}"
 
-if __name__ == "__main__":
-    url = input("Enter the URL to check: ")
-    result = check_content_type(url)
-    print(f"Result for {url}: {result}")
+url = input("Enter the URL to check: ")
+result = check_content_type(url)
+print(f"Result for {url}: {result}")
